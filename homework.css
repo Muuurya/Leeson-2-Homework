@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.p-section {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+  text-align: center;
+}
+table {
+  border: 1px solid #e1e5ee;
+}
+th {
+  border: 1px solid #e1e5ee;
+}
+td {
+  border: 1px solid #e1e5ee;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.td1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+  padding-left: 10px;
+}
+.th1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #363940;
+}
+.td2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+  padding-left: 10px;
+}
+.td3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6e38f7;
+  padding-left: 10px;
+}
+.b1 {
+  border: 1px solid #6e38f7;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6e38f7;
+  padding: 8px 20px;
+}
+.b2 {
+  background: #6e38f7;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 8px 30px;
+  border: none;
+}
